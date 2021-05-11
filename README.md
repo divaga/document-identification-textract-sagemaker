@@ -2,7 +2,7 @@
 
 Sagemaker notebook for training document classifier using Image Classification algorithm. Sagemaker model published via endpoint and combined with Textract based text recognition to provide additional classifier using detected text.
 
-Lambda code provided to publish this via API Gateway lambda proxy. 
+Lambda code provided to publish this via API Gateway lambda proxy. Don't forget to add Textract Role and Sagemaker Endpoint Execution Role to this lambda.
 
 
 
